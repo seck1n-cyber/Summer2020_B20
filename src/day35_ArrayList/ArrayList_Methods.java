@@ -1,0 +1,76 @@
+package day35_ArrayList;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
+public class ArrayList_Methods {
+    public static void main(String[] args) {
+
+        ArrayList<String> earlyBirdList = new ArrayList<>();
+        earlyBirdList.add("Ibrahim");
+        earlyBirdList.add("Virginia");
+        earlyBirdList.add("Ziiadin");
+        earlyBirdList.add("Erfan");
+        earlyBirdList.add("Aalia");
+
+        earlyBirdList.set(2, "Aslan");
+        earlyBirdList.set(0, "lan");
+        System.out.println(earlyBirdList);
+
+        earlyBirdList.clear();
+
+        System.out.println(earlyBirdList);
+
+        System.out.println(earlyBirdList.size());
+
+        System.out.println("===========");
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        list.add(1); //0
+        list.add(2); //1
+        list.add(3); //2
+        list.add(4); //3
+        list.add(5); //4
+
+        list.remove(2);
+        list.remove(3);
+        System.out.println(list);
+
+        System.out.println("=============");
+
+        ArrayList<Integer> list2 = new ArrayList<>();
+
+        list.add(1); //0
+        list.add(2); //1
+        list.add(3); //2
+        list.add(4); //3
+        list.add(5); //4
+
+        Integer a = 1;
+
+        list2.remove(a);
+
+        System.out.println(list2);
+
+
+        ArrayList<String> list3 = new ArrayList<>();
+        list3.add("Hamit");
+        list3.add("Liliia");
+        list3.add("Bulnet");
+        list3.add("Viorel");
+        list3.add("Musa");
+
+       boolean r =  list3.remove("Bulnet");
+       boolean r2 = list3.remove("Musa");
+        //list3.remove("Bulnet");
+        System.out.println(list3);
+
+        System.out.println(r2);
+        System.out.println(r);
+
+
+
+
+    }
+}
