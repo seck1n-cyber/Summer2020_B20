@@ -1,9 +1,14 @@
-
 package Library;
 
 import java.util.Arrays;
 
 public class Util {
+
+    int c= 300;
+    public  void Multiply6(){
+        System.out.println(c*6);
+    }
+
 
     // import Library.Util;
 
@@ -95,6 +100,7 @@ public class Util {
     }
     // find and returns the max number from int array
 
+
     public static Integer maxNum(Integer[] arr){
         Integer max = arr[0];
 
@@ -120,6 +126,7 @@ public class Util {
         return max;
     }
     // find and returns the max number from double array
+
 
     public static Double maxNum(Double[] arr){
         Double max = arr[0];
@@ -524,6 +531,14 @@ public class Util {
     // combines two array and returns it
 
 
+    public static void sleep(double seconds){
+        try {
+            Thread.sleep((long)(seconds * 1000));
+        }catch (InterruptedException e){
+
+        }
+    }
+    // causes the current execution thread to sleep for given seconds
 
 
 }

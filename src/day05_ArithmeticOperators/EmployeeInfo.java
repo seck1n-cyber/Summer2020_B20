@@ -3,7 +3,7 @@ package day05_ArithmeticOperators;
 import java.sql.SQLOutput;
 
 /*
-Warmup tasks:
+Student tasks:
         1. create a class named EmployeeInfo
                     declare the following variables:
                              firstName
